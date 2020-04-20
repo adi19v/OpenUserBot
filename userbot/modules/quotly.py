@@ -159,7 +159,7 @@ if 1 == 1:
             "usernameColor": username_color,
             "username": username,
             "adminTitle": admintitle,
-            "Text": reply.message,
+            "Text": reply_message,
             "Markdown": get_markdown(reply),
             "Template": args[0],
             "APIKey": config["api_token"]
